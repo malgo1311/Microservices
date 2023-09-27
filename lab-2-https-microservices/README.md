@@ -20,9 +20,6 @@ back-end tier)  for the stock bazaar using microservices at each tier. The front
 as a single microservice, while the back-end is implemented as two separate services: a stock catalog
 service and an stock order service.
 
-Note: You are not required to use any code from Lab 1, but please feel free to use any parts of lab
-1 for lab 2 if it is useful to you.
-
 ## Part 1: Implement Your Two-Tiered Stock Bazaar as Microservices
 
 ### Front-end Service

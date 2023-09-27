@@ -9,16 +9,6 @@ Spring 2023
 
 The year is 50 B.C.  The Gauls, led by Asterix, have been in confined to their homes to limit their exposure to a pandemic caused by a mysterious germ spread by rotting fish sold by Unhygienix the fish-monger. To pass time in their homes, Gauls have taken up trading meme stocks in their local stock bazaar. Obelix (a sculptor by profession) has tasked by the village chief  to run the stock trading server. Every Gaul now has a stone tablet that allows them look up to latest stock prices of their favorite meme stock. Each smart-stone (not to be confused with a smart-phone, which are yet to be invented) also allows  stock purchases from Obelix's stock trading server.  Cacofonix, the village bard, is responsible for providing Obelix's server with live updates of stock prices, which he does by singing the prices from the stock bazaar and thereby sending updated prices to the server.
 
-
-This lab has three parts (two programming parts and one performance measurement/evaluation part). In
-the first part, you will design your own thread pool and use it to write a simple client-server
-application for the above problem that uses network sockets. This part will give you an appreciation of how thread pools
-work internally. In the second part, you will use gRPC and built-in thread pool mechanisms to write
-the client-server application. This part will give you an appreciation of using modern frameworks to
-write distributed applications, since most programmers simply use higher-level abstractions such as
-built-in thread pools and RPCs rather than implementing their own thread pool or using lower-level
-abstractions such as sockets.
-
 ## Part 1: Implementation with Socket Connection and Handwritten Thread Pool
 
 In this part, you need to implement online stock trading  as a socket-based client-server application.

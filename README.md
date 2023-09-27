@@ -10,9 +10,8 @@ I have done three labs in my course CS 677 Distributed and Operating Systems at 
    major languages
 4) Designed a distributed applications using a low-level abstraction of socket communication as
    well as high-level abstraction of remote procedure calls.
-5) Learn to use gRPC, a modern RPC framework
-6) Learn to measure the performance of a distributed application
-7) Learn to use version control and build tools
+5) Used gRPC communication protocol, a modern RPC framework
+6) Measured the performance of a distributed application
 
 ## Lab 2
 
