@@ -26,7 +26,7 @@ I have done three labs in my course CS 677 Distributed and Operating Systems at 
    consisting of multiple containers using Docker Compose
 7. Tested the distributed application
 
-## Lab 2
+## Lab 3
 
 1. Implemented caching, replication, and consistency.
 2. Ensured fault tolerance and high availability.

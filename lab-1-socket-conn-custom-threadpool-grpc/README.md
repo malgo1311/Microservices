@@ -5,35 +5,6 @@ Spring 2023
 
 # Lab 1: Asterix and the Stock Bazaar
 
-## Goals and Learning Outcomes
-
-This lab has the following learning outcomes with regard to concepts covered in class.
-
-1) Learn to design distributed client-server applications
-2) Learn to design a concurrent networked server application
-3) Learn to design your own thread pool for servers and use thread pool abstractions provided by
-   major languages
-4) Learn to design distributed applications using a low-level abstraction of socket communication as
-   well as high-level abstraction of remote procedure calls.
-
-The lab also has the following learning outcomes with regards to practice and modern technologies
-
-5) Learn to use gRPC, a modern RPC framework
-6) Learn to measure the performance of a distributed application
-7) Learn to use version control and build tools
-
-## Instructions
-
-1) You may work in groups of two for this lab. If you decide to work in groups, you should briefly
-   describe how the work is divided between the two team members in your README file.
-2) You can use either Python or Java for this assignment. You may optionally use C++, but TA support
-   for C++ issues will be limited.
-3) Do's and don'ts:
-   - discuss lab with other students: allowed
-   - use of AI tools: allowed with attribution (be sure to read policy in course syllabus)
-   - use code from others/Internet/friends/coders for hire: disallowed
-   - ask TAs for clarifications/help: always allowed
-
 ## Lab Description
 
 The year is 50 B.C.  The Gauls, led by Asterix, have been in confined to their homes to limit their exposure to a pandemic caused by a mysterious germ spread by rotting fish sold by Unhygienix the fish-monger. To pass time in their homes, Gauls have taken up trading meme stocks in their local stock bazaar. Obelix (a sculptor by profession) has tasked by the village chief  to run the stock trading server. Every Gaul now has a stone tablet that allows them look up to latest stock prices of their favorite meme stock. Each smart-stone (not to be confused with a smart-phone, which are yet to be invented) also allows  stock purchases from Obelix's stock trading server.  Cacofonix, the village bard, is responsible for providing Obelix's server with live updates of stock prices, which he does by singing the prices from the stock bazaar and thereby sending updated prices to the server.
@@ -147,55 +118,6 @@ Using these measurements, answer the following questions:
    your design.
 4) In part 1, what happens when the number of clients is larger the size of the static thread pool?
    Does the response time increase due to request waiting?
-
-## What to submit.
-
-1) Your solution should contain source code for both parts separately. Inside the `src` directory,
-   you should have two folders named "part1" and "part2" for the two parts. Submit your code with
-   good inline comments.
-
-2) Submit the following additional documents inside the `docs` directory. 1) A Brief design document
-   (1 to 2 pages) that explains your design choices (include citations, if you used referred to
-   Internet sources), 2) An Output file (1 to 2 pages), showing sample output or screenshots to
-   indicate your program works, and 3) An Evaluation doc (2 to 3 pages), for part 3 showing plots
-   and making observations.
-
-3) Submit all of the above via GitHub classroom. Include a README at the top level explaining how to
-   build and run your code on Edlab (if we can not run it, we can not grade it). It's recommended to
-   use a build tool and include your build file in the repo if you are using java (e.g., gradle or
-   maven) or C++ (e.g., make or cmake). For Python, it's optional to use a build tool, but
-   `requirements.txt` should be included if your code has external dependencies.
-
-4) Your GitHub repo is expected to contain many commits with proper commit messages (which is good
-   programming practice). Use GitHub to develop your lab and not just to submit the final version.
-   We expect a reasonable number of commits and meaningful commit messages from both members of the
-   group (there is no "target" number of commits that is expected, just enough to show you are using
-   GitHub as one should).
-
-## Grading Rubric
-
-1) Part 1 and Part 2 are each 42.5% of the lab grade.
-
-   For full credit:
-
-   * Source code should build and work correctly (20%),
-   * Code should have in-line comments (5%),
-   * A design doc should be submitted (7.5%),
-   * An output file should be included (5%)
-   * GitHub repo should have adequate commits and meaningful commit messages (5%).
-
-2) Part 3 is 15% of the grade.
-
-   For full credit:
-
-   * Eval document should be turned in with measurements for Part 1 and 2 (shown as plots where
-     possible and tables otherwise) (7.5%)
-   * Explaining the plots by addressing answers to the 4 questions listed in Part 3 (7.5%).
-
-Late policy will include 10% of points per day. Medical or covid exceptions require advance notice,
-and should be submitted through pizza (use exceptionRequests folder in pizza). Three free late days
-per group are available for the entire semester - use them wisely, and do not use them up for one lab
-by managing your time well.
 
 ## References
 

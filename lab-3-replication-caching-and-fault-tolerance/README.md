@@ -5,35 +5,6 @@ Spring 2023
 
 # Lab 3: Asterix and Double Trouble  --  Replication, Caching, and Fault Tolerance
 
-## Goals and Learning Outcomes
-
-The lab has the following learning outcomes with regard to concepts covered in class.
-
-* Learn about caching, replication, and consistency.
-* Learn about the concepts of fault tolerance and high availability.
-* Learn about how to deploy your application on the cloud.
-
-## Information about your submission
-
-1. Name and email: Aishwarya Malgonde / amalgonde@umass.edu
-2. Team member name and email: Sahil Jindal / sahiljindal@umass.edu
-3. Number of late days used for this lab: 3
-4. Number of late days used so far including this lab: 3
-
-## Instructions
-
-1. You may work in groups of two for this lab. If you decide to work in groups, you should briefly
-   describe how the work is divided between the two team members in your README file. Be sure to
-   list the names of all team members at the top of this README file.
-2. You can use either Python or Java for this assignment. You may optionally use C++, but TA support
-   for C++ issues will be limited. For this lab you may use different languages for different
-   microservices if you want.
-3. Do's and don'ts:
-   * discuss lab with other students: allowed
-   * use of AI tools: allowed with attribution (be sure to read the policy in course syllabus)
-   * use code from others/Internet/friends/coders for hire: disallowed
-   * ask TAs for clarifications/help: always allowed
-
 ## Lab Description
 
 The Gauls have really taken to stock trading and trading has become their village pass time. To ensure 
@@ -149,39 +120,6 @@ running, and then bring it back online after some time. Repeat this experiment s
 make sure that you test the case when the leader is killed. Can the clients notice the failures?
 (either during order requests or the final order checking phase) or are they transparent to the
 clients? Do all the order service replicas end up with the same database file?
-
-## What to submit
-
-Your solution should contain source code for both parts separately inside the `src` directory. Then
-under the directory for each part, you should have a separate folder for each
-component/microservice, e.g., a `client` folder for client code, a `front-end` folder for the
-front-end service, etc.
-
-A short README file on how to run your code. Include build/make files if you created any, otherwise
-the README instructions on running the code should provide details on how to do so.
-
-Submit the following additional documents inside the docs directory. 1) A Brief design document (1
-to 2 pages) that explains your design choices (include citations, if you used Internet
-sources), 2) An Output file (1 to 2 pages), showing sample output or screenshots to indicate that your
-program works, and 3) An Evaluation doc (2 to 3 pages), for part 4 showing plots and making
-observations.
-
-## Grading Rubric
-
-Parts 1-3 accounts for 70% of the total lab grade:
-
-* Code should have inline comments (5%).
-* GitHub repo should have adequate commits and meaningful commit messages (5%).
-* Source code should build and work correctly (40%).
-* A descriptive design doc should be submitted (15%).
-* An output file should be included (5%).
-
-Part 4 accounts for 30% of the total lab grade:
-
-* Should provide steps in your eval docs about how you deployed your application on AWS. Include
-  scripts in your repo if needed (5%).
-* An eval doc with measurement results and plots (15%).
-* Analysis of the results and answers to the questions in part 3 (10%).
 
 ## References
 
