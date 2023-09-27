@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  frontend:
+    build: src/front-end/.
+    ports:
+      - "8000:8000"  
+  catalog:
+    build: src/back-end/catalog_service/.
+    ports:
+      - "8001:9090"
+    volumes:
+      - ./src/back-end/catalog_service/data/:/app/data/
+  order:
+    build: src/back-end/order_service/.
+    ports:
+      - "8002:9090"
+    volumes:
+      - ./src/back-end/order_service/data/:/app/data/
+  
