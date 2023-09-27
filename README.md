@@ -1,6 +1,6 @@
 # Microservices
 
-I have done three labs in my course CS 677 Distributed and Operating Systems at Umass Amherst. Following are the goals achieved in each of the labs.
+I have done three labs in my course CS 677 Distributed and Operating Systems at Umass Amherst. Following are the goals achieved in each of the labs. For solutions please go through the README.md inside the src folders, which are present inside each lab.
 
 ## Lab 1
 
